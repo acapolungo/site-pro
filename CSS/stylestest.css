@@ -1,0 +1,104 @@
+/* Faire un rest CSS */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* scroll plus doux sur les liens */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+}
+
+header {
+    width: 90%;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: slateblue;
+}
+
+/* The navigation bar */
+nav {
+    margin-top: 70px;
+    width: 90%;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+h1  {
+    text-align: center;
+    font-size: 45px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+  
+/* Links inside the navbar */
+nav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: saddlebrown;
+}
+
+section {
+    /* text-align: center; */
+    width: 90%;
+    padding: 50px;
+    margin: 45px auto 0;
+    background-color: cadetblue;
+}
+
+.column {
+    display: inline-block;
+    
+    width: 300px;
+    height: 400px;
+    padding: 0 25px;
+    background-color: aquamarine;
+    border: 1px solid #333;
+    
+    
+}
+
+aside {
+    float: right;
+    vertical-align: top;
+    /* vertical-align: top; */
+    width: 300px;
+    padding: 0 25px;
+    height: 300px;
+    vertical-align: middle;
+    background-color: aquamarine;
+    border: 1px solid #333;
+}
+
+
+footer {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 25%;
+    background-color: aqua;
+}
+
